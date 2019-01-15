@@ -1,7 +1,7 @@
 <template lang="pug">
 #app
   img(src='https://robertramosastudillo.github.io/platzimusic/dist/logo.png')
-  h1 Developed by Robert Ramos
+  h1 PlatziMusic
   select(v-model="selectedCountry")
     option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
   spinner(v-show="loading")
